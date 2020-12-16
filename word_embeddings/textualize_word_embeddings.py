@@ -28,3 +28,7 @@ def main():
             vector = " ".join(map(str, list(vectors[word])))
             f_out.write(word + ' ' + vector + '\n')
             f_out.write("\n")
+
+
+if __name__ == '__main__':
+    main()
